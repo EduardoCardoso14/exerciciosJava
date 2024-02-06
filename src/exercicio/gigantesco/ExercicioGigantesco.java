@@ -47,11 +47,47 @@ public class ExercicioGigantesco {
         //exercicio 8:
         int myNum = 9;
         float myFloatNum = 8.99f;
-        String myLetter = 'A';
+        char myLetter = 'A';
+        boolean MyBool = false;
+        String MyText = "Hello World";
         
-        //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
-              //https://github.com/EduardoCardoso14/exerciciosJava.git
+        //exercicio 9:
+           //primitive data types;
+           
+        //exercicio 10:
+        double MyDouble = 9.78d;
+        int myInt = (int)MyDouble;
         
+        //exercicio 11:
+        System.out.println(10*5);
+        
+        //exercicio 12:
+        System.out.println(10/5);
+        
+        //exercicio 13:
+        int m = 10;
+        ++m;
+        
+        //exercicio 14:
+        int n = 10;
+        n = n + 5;
+        
+        //exercicio 15:
+        String greeting = "Hello";
+        
+        //exercicio 16:
+        String txt = "Hello";
+        System.out.println(txt.toUpperCase());
+        
+        //exercicio 17:
+        String firstName = "John ";
+        String lastName = "Doe";
+        System.out.println(firstName+lastName);
+        
+        //exercicio 18:
+        String firstName2 = "John ";
+        String lastName2 = "Doe";
+        System.out.println(firstName.concat(lastName2));
         
     }
     
