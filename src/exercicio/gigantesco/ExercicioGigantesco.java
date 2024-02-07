@@ -119,10 +119,57 @@ public class ExercicioGigantesco {
         System.out.println(isJavaFun);
         System.out.println(isFishTasty);
         System.out.println("----------");
-        
-        //exercicio 23:
-        
 
+        //exercicio 24:
+        boolean i = true;
+        System.out.println(i);
+        System.out.println("----------");
+
+        //exercicio 25:
+        int p = 50;
+        int u = 10;
+        if (p > u) {
+            System.out.println("Hello World");
+            System.out.println("----------");
+        }
+
+        //exercicio 26:
+        int v1 = 50;
+        int v2 = 50;
+        if (v1 == v2) {
+            System.out.println("Hello World");
+            System.out.println("----------");
+        }
+
+        //exercicio 27:
+        int v3 = 50;
+        int v4 = 50;
+        if (v3 == v4) {
+            System.out.println("Yes");
+            System.out.println("----------");
+        } else {
+            System.out.println("No");
+            System.out.println("----------");
+        }
+
+        //exercicio 28:
+        int v5 = 50;
+        int v6 = 50;
+        if (v5 == v6) {
+            System.out.println("1");
+            System.out.println("----------");
+        } else if (v5 > v6) {
+            System.out.println("2");
+            System.out.println("----------");
+        } else {
+            System.out.println("3");
+            System.out.println("----------");
+        }
+
+        //exercicio 29:
+        int time = 20;
+        //String result = ? time < 18 = "Good day" : "Good evening.";
+        // esse aq ta dificiu.
     }
 
 }
