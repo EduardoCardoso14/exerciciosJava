@@ -13,6 +13,11 @@ public class ExercicioGigantesco {
     /**
      * @param args the command line arguments
      */
+    static void meumetodo() {
+        System.out.println("I just got executed!");
+        System.out.println("----------");
+    }
+
     public static void main(String[] args) {
         // TODO code application logic here
 
@@ -237,9 +242,51 @@ public class ExercicioGigantesco {
             }
             System.out.println(breiki);
         }
-        
-        //exercicio 37:
+        System.out.println("----------");
 
+        //exercicio 37:
+        for (int cont33 = 0; cont33 < 10; cont33++) {
+            if (cont33 == 4) {
+                cont33++;
+            }
+            System.out.println(cont33);
+        }
+        System.out.println("----------");
+
+        //exercicio 38:
+        String[] cars2 = {"Volvo", "BMW", "Ford"};
+
+        //exercicio 39:
+        String[] cars3 = {"Volvo", "BMW", "Ford"};
+        System.out.println(cars3[1]);
+        System.out.println("----------");
+
+        //exercicio 40:
+        String[] cars4 = {"Volvo", "BMW", "Ford"};
+        cars4[0] = "Opel";
+        System.out.println(cars4[0]);
+        System.out.println("----------");
+
+        //exercicio 41:
+        String[] cars5 = {"Volvo", "BMW", "Ford"};
+        System.out.println(cars5.length);
+        System.out.println("----------");
+
+        //exercicio 42:
+        String[] cars6 = {"Volvo", "BMW", "Ford"};
+        for (String cont6 : cars6) {
+            System.out.println(cont6);
+        }
+        System.out.println("----------");
+
+        //exercicio 43:
+        int meusnumbero[][] = {{1, 2, 3, 4}, {5, 6, 7}};
+
+        //exercicio 44:
+        ExercicioGigantesco oi = new ExercicioGigantesco();
+        oi.meumetodo();
+        
+        //continua daq bebe
     }
 
 }
