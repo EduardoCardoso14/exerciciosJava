@@ -168,8 +168,78 @@ public class ExercicioGigantesco {
 
         //exercicio 29:
         int time = 20;
-        //String result = ? time < 18 = "Good day" : "Good evening.";
-        // esse aq ta dificiu.
+        String result = (time < 18) ? "Good day" : "Good evening.";
+        System.out.println(result);
+        System.out.println("----------");
+
+        //exercicio 30:
+        int day = 2;
+        switch (day) {
+            case 1:
+                System.out.println("Saturday");
+                System.out.println("----------");
+                break;
+            case 2:
+                System.out.println("Sunday");
+                System.out.println("----------");
+                break;
+        }
+
+        //exercicio 31:
+        int day2 = 4;
+        switch (day2) {
+            case 1:
+                System.out.println("Saturday");
+                System.out.println("----------");
+                break;
+            case 2:
+                System.out.println("Sunday");
+                System.out.println("----------");
+                break;
+            default:
+                System.out.println("Weekend");
+                System.out.println("----------");
+        }
+
+        //exercicio 32:
+        int cont = 1;
+        while (cont < 6) {
+            System.out.println(cont);
+            cont++;
+        }
+        System.out.println("----------");
+
+        //exercicio 33:
+        int cont2 = 1;
+        do {
+            System.out.println(cont2);
+            cont2++;
+        } while (cont2 < 6);
+        System.out.println("----------");
+
+        //exercicio 34:
+        for (int foro = 0; foro < 5; foro++) {
+            System.out.println("Sim");
+        }
+        System.out.println("----------");
+
+        //exercicio 35:
+        String[] cars = {"Volvo", "BMW", "Ford"};
+        for (String cont3 : cars) {
+            System.out.println(cont3);
+        }
+        System.out.println("----------");
+
+        //exercicio 36:
+        for (int breiki = 0; breiki < 10; breiki++) {
+            if (breiki == 5) {
+                break;
+            }
+            System.out.println(breiki);
+        }
+        
+        //exercicio 37:
+
     }
 
 }
