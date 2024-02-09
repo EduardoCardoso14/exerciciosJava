@@ -18,6 +18,16 @@ public class ExercicioGigantesco {
         System.out.println("----------");
     }
 
+    static void meumetodo2(String fname) {
+        System.out.println(fname + " Doe");
+        System.out.println("----------");
+    }
+
+    static void meumetodo3(int x) {
+        System.out.println(5 + x);
+        System.out.println("----------");
+    }
+
     public static void main(String[] args) {
         // TODO code application logic here
 
@@ -285,8 +295,18 @@ public class ExercicioGigantesco {
         //exercicio 44:
         ExercicioGigantesco oi = new ExercicioGigantesco();
         oi.meumetodo();
-        
-        //continua daq bebe
+
+        //exercicio 45:
+        oi.meumetodo();
+        oi.meumetodo();
+
+        //exercicio 46:
+        oi.meumetodo2("John");
+
+        //exercicio 47:
+        oi.meumetodo3(3);
+
+        //exercicio 48: OUTRO ARQUIVO
     }
 
 }
